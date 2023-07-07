@@ -1,0 +1,17 @@
+@import url(../../tipografia/PlusJakartaSans-Italic-VariableFont_wght.ttf);
+@import url(../../tipografia/PlusJakartaSans-VariableFont_wght.ttf);
+
+.prenda__boton {
+    background: #254F25;
+    border: none;
+    font-family: 'Plus Jakarta Sans';
+    border-radius: 5px;
+    color: #FFF7D7;
+    padding: 1rem;
+    transition: all .1s ease-in-out;
+}
+
+.prenda__boton:hover {
+    cursor: pointer;
+    background: #173017;
+}

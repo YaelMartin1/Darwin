@@ -1,0 +1,10 @@
+@import url(../../tipografia/PlusJakartaSans-Italic-VariableFont_wght.ttf);
+@import url(../../tipografia/PlusJakartaSans-VariableFont_wght.ttf);
+
+.sobre__titulo {
+    font-size: 2rem;
+    font-family: 'Plus Jakarta Sans', Italic;
+    text-align: center;
+    color: #254F25;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.75);
+}

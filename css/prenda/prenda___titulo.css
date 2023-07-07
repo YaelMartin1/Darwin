@@ -1,0 +1,7 @@
+@import url(../../tipografia/PlusJakartaSans-Italic-VariableFont_wght.ttf);
+@import url(../../tipografia/PlusJakartaSans-VariableFont_wght.ttf);
+
+.prenda__titulo {
+    font-family: 'Plus Jakarta Sans', Italic;
+    font-size: 1.4375rem;
+}

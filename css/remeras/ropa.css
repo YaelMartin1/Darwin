@@ -1,0 +1,56 @@
+@import url(../../tipografia/PlusJakartaSans-Italic-VariableFont_wght.ttf);
+@import url(../../tipografia/PlusJakartaSans-VariableFont_wght.ttf);
+
+.prenda__titulo {
+    font-family: 'Plus Jakarta Sans', Italic;
+    color: #0C190C;
+    font-size: 1.4375rem;
+}
+
+.prenda__boton {
+    background: #254F25;
+    border: none;
+    font-family: 'Plus Jakarta Sans';
+    border-radius: 5px;
+    color: #FFF7D7;
+    padding: 1rem;
+    transition: all .1s ease-in-out;
+    width: 100px;
+}
+
+.prenda__boton:hover {
+    cursor: pointer;
+    background: #173017;
+}
+
+.prenda__imagen {
+    height: 300px;
+    width: 300px;
+}
+
+.prenda__precio {
+    font-family: 'Plus Jakarta Sans';
+    font-size: 1rem;
+    color: #0C190C;
+}
+
+.prenda__contenido {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px;
+}
+
+@media screen and (min-width: 768px) {
+    .prenda__imagen {
+        height: 450px;
+        width: 450px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .prenda__imagen {
+        height: 650px;
+        width: 650px;
+    }
+}

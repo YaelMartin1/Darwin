@@ -1,0 +1,99 @@
+<footer class="rodapie">
+    <h2 class="rodapie__titulo">Darwin</h2>
+    <section class="acomodar">
+        <h3 class="rodapie__">CONTACTO</h3>
+        <ul class="rodapie__lista">
+            <li class="rodapie__item"><a class="rodapie__icon" href="#"><img alt="WhatsApp" src=""></a></li>
+            <li class="rodapie__item"><a class="rodapie__icon" href="#"><img alt="Email" src=""></a></li>
+            <li class="rodapie__item"><a class="rodapie__icon" href="#"><img alt="Instagram" src=""></a></li>
+        </ul>
+
+        <section class="categorias">
+            <h4 class="categorias__titulo">CATEGORIAS</h4>
+            <ul class="categorias__lista">
+                <li class="categorias__item"><a class="categorias__icon" href="#">BUZOS</a></li>
+                <li class="categorias__item"><a class="categorias__icon" href="#">REMERAS</a></li>
+                <li class="categorias__item"><a class="categorias__icon" href="#">NOSOTROS</a></li>
+                <li class="categorias__item"><a class="categorias__icon" href="#">ENVIOS Y DEVOLUCIONES</a></li>
+            </ul>
+        </section>
+
+        <section class="logo">
+            <img class="logo2" src="" alt="Logo de Darwin">
+        </section>
+    </section>
+</footer>
+
+css
+
+.categorias__titulo {
+font-size: 2rem;
+font-family: 'Plus Jakarta Sans', sans-serif;
+color: #FFF7D7;
+display: flex;
+flex-direction: row;
+text-align: center;
+}
+
+.rodapie__contacto {
+font-size: 2rem;
+font-family: 'Plus Jakarta Sans', sans-serif;
+color: #FFF7D7;
+display: flex;
+flex-direction: row;
+text-align: center;
+}
+
+.rodapie {
+display: flex;
+justify-content: space-between;
+align-items: center;
+background-color: #0C190C;
+flex-direction: column;
+flex-wrap: wrap;
+padding-top: 3rem;
+padding-left: 2rem;
+padding-right: 2rem;
+}
+
+.acomodar {
+display: flex;
+flex-direction: row;
+}
+
+.rodapie__titulo {
+font-size: 3rem;
+display: flex;
+font-family: 'Plus Jakarta Sans', sans-serif;
+color: #254F25;
+text-shadow: 0 2px 4px #0C190C;
+}
+
+
+
+
+<html>
+<header class="cabecera">
+
+    <button class="boton-hamburguesa">
+        <span>&#9776;</span>
+    </button>
+    <h1 class="titulo">Darwin</h1>
+
+    <nav class="menu-hamburguesa">
+        <ul class="ul">
+            <li class="li"><a href="#" class="a">REMERAS</a></li>
+            <li class="li"><a href="#" class="a">BUZOS</a></li>
+            <li class="li"><a href="#" class="a">CAMPERAS</a></li>
+        </ul>
+    </nav>
+    <nav class="opciones">
+        <ul class="opciones__lista">
+            <li class="opciones__item"><a class="opciones__link" src=""></a></li>
+            <li class="opciones__item"><a class="opciones__link"
+                    src="../img/iconos/png/shopping-bag-regular-24.png"></a></li>
+        </ul>
+    </nav>
+</header>
+
+</html>
