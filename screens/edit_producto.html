@@ -4,12 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Carrito de Compras</title>
+    <title>Editar Producto</title>
     <link rel="stylesheet" href="/css/style.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
-    <link rel="stylesheet" href="../css/header/header.css">
-    <link rel="stylesheet" href="../css/footer/footer.css">
-
+    <link rel="stylesheet" href="/css/header/header.css">
+    <link rel="stylesheet" href="/css/footer/footer.css">
+    <link rel="stylesheet" href="/css/agregar.css">
 </head>
 
 <header class="header container">
@@ -56,9 +55,39 @@
 
 <body>
 
+    <form class="formulario">
+
+        <h1>Editar Producto</h1>
+        <div class="editar">
+
+            <div class="input__editar">
+                <input type="text" placeholder="URL de la Imagen">
+            </div>
+
+            <div class="input__editar">
+                <input type="text" placeholder="Categoria">
+            </div>
+
+            <div class="input__editar">
+                <input type="text" placeholder="Nombre del Producto">
+            </div>
+
+            <div class="input__editar">
+                <input type="text" placeholder="Precio del Producto">
+            </div>
+
+            <div class="input__editar">
+                <input type="text" placeholder="Descripcion del Producto">
+            </div>
 
 
-    <!-- footer -->
+            <input name="destacado" type="checkbox" />Producto Destacado
+
+
+            <input type="submit" value="Editar Producto" class="button">
+        </div>
+    </form>
+
     <footer>
         <div class="footer-content">
             <h3 class="footer__titulo">DARWIN</h3>
