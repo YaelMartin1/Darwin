@@ -1,0 +1,32 @@
+@import url(../../tipografia/PlusJakartaSans-Italic-VariableFont_wght.ttf);
+@import url(../../tipografia/PlusJakartaSans-VariableFont_wght.ttf);
+@import url(../../tipografia/Nostalgia.otf);
+@import url(../../tipografia/PlusJakartaSans-Italic-VariableFont_wght.ttf);
+@import url(../../tipografia/PlusJakartaSans-Italic-VariableFont_wght.ttf);
+@import url(../../tipografia/PlusJakartaSans-VariableFont_wght.ttf);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #fcfcfc;
+}
+
+input::placeholder {
+    color: grey;
+}
+
+section{
+    display: grid;
+    grid-template-columns: 1fr;
+    background: #FFFEF8
+}
+
+section h2{
+    padding: 25px 0;
+    margin: 10px auto;
+    font-size: 2.75em;
+}

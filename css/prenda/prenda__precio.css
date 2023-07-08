@@ -1,8 +1,0 @@
-@import url(../../tipografia/PlusJakartaSans-Italic-VariableFont_wght.ttf);
-@import url(../../tipografia/PlusJakartaSans-VariableFont_wght.ttf);
-
-.prenda__precio {
-    font-family: 'Plus Jakarta Sans';
-    font-size: 1rem;
-    color: #0C190C;
-}

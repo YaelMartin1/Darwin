@@ -1,16 +1,3 @@
-@import url(../../tipografia/Nostalgia.otf);
-@import url(../../tipografia/PlusJakartaSans-Italic-VariableFont_wght.ttf);
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    background: #fcfcfc;
-}
-
 footer {
     bottom: 0;
     left: 0;

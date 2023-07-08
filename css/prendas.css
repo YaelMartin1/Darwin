@@ -1,0 +1,66 @@
+.prendas {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+}
+
+.prenda__titulo {
+    font-family: 'Plus Jakarta Sans', Italic;
+    font-size: 1.4375rem;
+}
+.prenda__boton {
+    background: #254F25;
+    border: none;
+    font-family: 'Plus Jakarta Sans';
+    border-radius: 5px;
+    color: #FFF7D7;
+    padding: 1rem;
+    transition: all .1s ease-in-out;
+}
+
+.prenda__boton:hover {
+    cursor: pointer;
+    background: #173017;
+}
+.prenda__contenido {
+    margin: 20px;
+}
+.prenda__precio {
+    font-family: 'Plus Jakarta Sans';
+    font-size: 1rem;
+    color: #0C190C;
+}
+
+@media screen and (min-width: 768px) {
+    .prendas {
+        margin-right: 2.5rem;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .prendas {
+        margin-right: 5rem;
+        width: 100%;
+    }
+
+}
+
+.prenda__imagen {
+    height: 150px;
+    width: 150px;
+}
+
+@media screen and (min-width: 768px) {
+    .prenda__imagen {
+        height: 250px;
+        width: 250px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .prenda__imagen {
+        height: 400px;
+        width: 400px;
+    }
+}
