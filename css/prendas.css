@@ -2,12 +2,14 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     justify-items: center;
+    background-color: #FFF7D7;
 }
 
 .prenda__titulo {
     font-family: 'Plus Jakarta Sans', Italic;
     font-size: 1.4375rem;
 }
+
 .prenda__boton {
     background: #254F25;
     border: none;
@@ -22,9 +24,11 @@
     cursor: pointer;
     background: #173017;
 }
+
 .prenda__contenido {
     margin: 20px;
 }
+
 .prenda__precio {
     font-family: 'Plus Jakarta Sans';
     font-size: 1rem;
