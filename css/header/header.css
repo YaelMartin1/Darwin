@@ -1,23 +1,10 @@
-@import url(../../tipografia/Nostalgia.otf);
-@import url(../../tipografia/PlusJakartaSans-Italic-VariableFont_wght.ttf);
-
-
-:root {
-    --color-1: #FFF7D7;
-}
-
-
-a {
-    text-decoration: none;
-}
-
-ul {
-    list-style: none;
-}
-
 /*header*/
 .header {
-    position: relative;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;

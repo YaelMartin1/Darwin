@@ -1,8 +1,10 @@
 .prendas {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     justify-items: center;
     background-color: #FFF7D7;
+    gap: 20px;
+    margin: 30px 0;
 }
 
 .prenda__titulo {
@@ -35,19 +37,26 @@
     color: #0C190C;
 }
 
-@media screen and (min-width: 768px) {
-    .prendas {
-        margin-right: 2.5rem;
-        width: 100%;
-    }
+
+
+.img__container {
+    position: relative;
 }
 
-@media screen and (min-width: 992px) {
-    .prendas {
-        margin-right: 5rem;
-        width: 100%;
-    }
+.iconos {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
 
+.remera {
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    border: #0C190C solid 1px;
+    overflow: hidden;
 }
 
 .prenda__imagen {
@@ -55,7 +64,14 @@
     width: 150px;
 }
 
+
 @media screen and (min-width: 768px) {
+    .prendas {
+        grid-template-columns: repeat(3, 1fr);
+        margin-right: 2.5rem;
+        width: 100%;
+    }
+
     .prenda__imagen {
         height: 250px;
         width: 250px;
@@ -63,8 +79,15 @@
 }
 
 @media screen and (min-width: 992px) {
+    .prendas {
+        grid-template-columns: repeat(3, 1fr);
+        margin-right: 5rem;
+        width: 100%;
+    }
+
     .prenda__imagen {
         height: 400px;
         width: 400px;
     }
+
 }
