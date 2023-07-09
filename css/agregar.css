@@ -10,18 +10,82 @@ form h1 {
 form {
     display: flex;
     flex-direction: column;
+    margin: 50px;
 }
 
-.agregar .editar {
-    display: flex;
-    flex-direction: column;
-    padding: 50px;
+
+.agregar {
+    width: 400px;
+    background: #577A57;
+    padding: 30px;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 4px;
+    font-family: 'calibri';
+    color: #FFF5BE;
+    box-shadow: 7px 13px 37px #000;
+
 }
 
-.input__agregar .input__editar {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 350px;
+.input__agregar {
+    width: 100%;
+    background: #577A57;
     padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 3px solid #254F25;
+    font-family: 'Plus Jakarta Sans';
+    font-size: 18px;
+    color: #FFF5BE;
+}
+
+.agregar__button {
+    width: 100%;
+    background: #254F25;
+    border: none;
+    padding: 12px;
+    color: #FFF5BE;
+    margin: 16px 0;
+    font-size: 16px;
+}
+
+.agregar__button:hover {
+    background: #173017;
+}
+
+/* editar */
+
+.editar {
+    width: 400px;
+    background: #577A57;
+    padding: 30px;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 4px;
+    font-family: 'calibri';
+    color: #FFF5BE;
+    box-shadow: 7px 13px 37px #000;
+
+}
+
+.input__editar {
+    width: 100%;
+    background: #577A57;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 3px solid #254F25;
+    font-family: 'Plus Jakarta Sans';
+    font-size: 18px;
+    color: #FFF5BE;
+}
+
+.editar__button {
+    width: 100%;
+    background: #254F25;
+    border: none;
+    padding: 12px;
+    color: #FFF5BE;
+    margin: 16px 0;
+    font-size: 16px;
 }
