@@ -51,16 +51,7 @@ footer {
     margin: 0 10px;
 }
 
-.socials a {
-    text-decoration: none;
-    color: #fff;
-}
 
-
-
-.socials a:hover i {
-    color: aqua;
-}
 
 .footer-bottom {
     background: #0C190C;
@@ -79,4 +70,47 @@ footer {
     text-transform: uppercase;
     opacity: .4;
     font-weight: 200;
+}
+
+.footer__carrito {
+    position: absolute;
+}
+
+@media screen and (max-width: 768px) {
+    footer {
+        padding-top: 20px;
+    }
+
+    .footer-content h3 {
+        font-size: 1.3rem;
+        font-weight: 400;
+        line-height: 2rem;
+    }
+
+    .footer-content p {
+        max-width: 500px;
+        margin: 5px auto;
+        line-height: 20px;
+        font-size: 10px;
+    }
+
+    .socials {
+        margin: 0.5rem 0 1rem 0;
+    }
+
+    .socials li {
+        margin: 0 5px;
+    }
+
+    .footer-bottom {
+        padding: 10px 0;
+    }
+
+    .footer-bottom p {
+        font-size: 10px;
+    }
+
+    .footer-bottom span {
+        font-weight: 100;
+    }
 }

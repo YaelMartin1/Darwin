@@ -4,6 +4,11 @@
 
 :root {
     --color-1: #FFF7D7;
+    --color-2: #FFFCEE;
+    --color-3: #254F25;
+    --color-4: #577A57;
+    --color-5: #173017;
+    --color-6: #0C190C;
 }
 
 
@@ -41,6 +46,32 @@ section h2 {
     font-size: 2.75em;
     font-family: 'Plus Jakarta Sans', Italic;
     color: #254F25;
-    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.75);
+    text-shadow: 0 2px 3px rgba(0, 0, 0, 0.75);
     background-color: #FFF7D7;
+}
+
+.carrito__boton {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background: #254F25;
+    border: none;
+    font-family: 'Plus Jakarta Sans';
+    border-radius: 5px;
+    color: #FFF7D7;
+    padding: 1rem;
+    transition: all .1s ease-in-out;
+}
+
+.carrito__boton:hover {
+    cursor: pointer;
+    background: #173017;
+}
+
+
+@media screen and (max-width:768px) {
+    section h2 {
+        padding: 15px;
+        font-size: 2em;
+    }
 }

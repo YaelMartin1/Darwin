@@ -10,7 +10,7 @@
     justify-content: space-between;
 
     padding: 5px 10px;
-    background-color: var(--color-1);
+    background-color: var(--color-2);
 }
 
 .header .logo a {
@@ -82,7 +82,7 @@
 
 .btn i {
     font-size: 1.2em;
-    color: #FFF7D7;
+    color: var(--color-2);
     line-height: 50px;
 }
 
@@ -125,7 +125,7 @@
     left: 0;
     top: 100%;
     width: 100%;
-    background-color: var(--color-1);
+    background-color: var(--color-2);
     border-top: 1px solid rgba(255, 255, 255, 0.2);
     opacity: 0;
     visibility: hidden;
@@ -175,7 +175,7 @@
     display: block;
     height: 2px;
     width: 20px;
-    background-color: var(--color-1);
+    background-color: var(--color-2);
     position: relative;
 }
 
@@ -185,7 +185,7 @@
     position: absolute;
     width: 100%;
     height: 100%;
-    background-color: var(--color-1);
+    background-color: var(--color-2);
     left: 0;
 }
 
@@ -218,4 +218,78 @@
 .header #nav-check:checked~.nav-toggler span::after {
     top: 0;
     transform: rotate(-45deg);
+}
+
+@media screen and (max-width: 768px) {
+
+    .header {
+        padding: 2px 7px;
+    }
+
+    .header__buttons {
+        gap: 0.5px;
+    }
+
+    .header .logo a {
+        font-size: 20px;
+    }
+
+    .busqueda:hover input {
+        width: 130px;
+        left: 75%;
+        font-size: 10px;
+    }
+
+    .header .nav ul li {
+        margin-left: 10px;
+    }
+
+    .header .nav ul li a {
+        font-size: 10px;
+        padding: 3px 0;
+    }
+
+    .nav-toggler {
+        height: 24px;
+        width: 34px;
+        margin-right: 2px;
+    }
+
+    .nav-toggler span {
+        height: 2px;
+        width: 18px;
+    }
+
+    svg {
+        height: 1.3rem;
+    }
+
+
+
+    .busqueda__input {
+        position: absolute;
+        top: 50%;
+        left: 15%;
+
+        height: 20px;
+        padding: 2px 10px;
+
+        font-size: 10px;
+        border: 1px solid #254F25;
+    }
+
+    .btn {
+        width: 30px;
+        height: 30px;
+    }
+
+    .btn i {
+        font-size: 0.9em;
+        line-height: 20px;
+    }
+
+    .busqueda:hover input {
+        width: 75px;
+        left: 75%;
+    }
 }

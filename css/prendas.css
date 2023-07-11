@@ -9,7 +9,7 @@
 
 .prenda__titulo {
     font-family: 'Plus Jakarta Sans', Italic;
-    font-size: 1.4375rem;
+    font-size: 1.2rem;
 }
 
 .prenda__boton {
@@ -49,12 +49,25 @@
     right: 0;
 }
 
+.iconos:hover .btn {
+    background: #173017;
+}
+
+.iconos .btn {
+    font-size: 1.2em;
+    color: #FFF7D7;
+    line-height: 50px;
+}
+
+
+
 .remera {
     border-radius: 10px;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
+    background-color: var(--color-2);
     border: #0C190C solid 1px;
     overflow: hidden;
 }
@@ -79,15 +92,10 @@
 }
 
 @media screen and (min-width: 992px) {
-    .prendas {
-        grid-template-columns: repeat(3, 1fr);
-        margin-right: 5rem;
-        width: 100%;
-    }
 
     .prenda__imagen {
-        height: 400px;
-        width: 400px;
+        height: 300px;
+        width: 300px;
     }
 
 }
