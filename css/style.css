@@ -41,7 +41,7 @@ section {
 }
 
 section h2 {
-    padding: 25px 0;
+    padding: 20px 0;
     margin: 10px auto;
     font-size: 2.75em;
     font-family: 'Plus Jakarta Sans', Italic;
@@ -71,7 +71,7 @@ section h2 {
 
 @media screen and (max-width:768px) {
     section h2 {
-        padding: 15px;
-        font-size: 2em;
+        padding: 10px;
+        font-size: 1.5rem;
     }
 }

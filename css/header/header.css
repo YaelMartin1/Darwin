@@ -9,13 +9,13 @@
     align-items: center;
     justify-content: space-between;
 
-    padding: 5px 10px;
+    padding: 5px 5px;
     background-color: var(--color-2);
 }
 
 .header .logo a {
     font-family: 'Nostalgia';
-    font-size: 30px;
+    font-size: 20px;
     color: #254F25;
     text-transform: capitalize;
 }
@@ -23,7 +23,7 @@
 .header__buttons {
     display: flex;
     align-items: center;
-    gap: 15px;
+    gap: 10px;
 }
 
 /* busqueda */
@@ -41,9 +41,9 @@
 
     outline: none;
     box-sizing: border-box;
-    height: 30px;
+    height: 25px;
     width: 0px;
-    padding: 5px 15px;
+    padding: 5px 10px;
     color: #000;
     border-radius: 50px;
     border-top-left-radius: 0;
@@ -63,8 +63,8 @@
     display: grid;
     place-content: center;
 
-    width: 44px;
-    height: 44px;
+    width: 35px;
+    height: 35px;
     background: #254F25;
     border-radius: 50%;
     text-align: center;
@@ -81,9 +81,9 @@
 }
 
 .btn i {
-    font-size: 1.2em;
+    font-size: 1em;
     color: var(--color-2);
-    line-height: 50px;
+    line-height: 30px;
 }
 
 .busqueda:hover input {
@@ -111,13 +111,13 @@
 }
 
 .compra_log {
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
 .correspondences {
     display: flex;
-    margin-right: 10px;
+    margin-right: 5px;
 }
 
 .header .nav {
@@ -134,14 +134,14 @@
 
 .header .nav ul li {
     display: block;
-    margin-left: 40px;
+    margin-left: 10px;
 }
 
 .header .nav ul li a {
     display: block;
     font-family: 'Plus Jakarta Sans';
     font-size: 16px;
-    padding: 10px 0;
+    padding: 5px 0;
     color: #254F25;
     text-transform: capitalize;
     transition: all 0.5s ease;
@@ -160,21 +160,21 @@
 }
 
 .nav-toggler {
-    height: 34px;
-    width: 44px;
+    height: 25px;
+    width: 30px;
     background-color: #254F25;
     border-radius: 4px;
     cursor: pointer;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-right: 15px;
+    margin-right: 10px;
 }
 
 .nav-toggler span {
     display: block;
     height: 2px;
-    width: 20px;
+    width: 18px;
     background-color: var(--color-2);
     position: relative;
 }
@@ -231,7 +231,7 @@
     }
 
     .header .logo a {
-        font-size: 20px;
+        font-size: 15px;
     }
 
     .busqueda:hover input {
@@ -249,22 +249,15 @@
         padding: 3px 0;
     }
 
-    .nav-toggler {
-        height: 24px;
-        width: 34px;
-        margin-right: 2px;
-    }
-
     .nav-toggler span {
         height: 2px;
         width: 18px;
     }
 
-    svg {
-        height: 1.3rem;
+    .nav-toggler {
+        height: 25px;
+        width: 30px;
     }
-
-
 
     .busqueda__input {
         position: absolute;

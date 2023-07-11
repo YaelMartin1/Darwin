@@ -5,7 +5,7 @@ footer {
     background: #173017;
     height: auto;
     width: 100%;
-    padding-top: 40px;
+    padding-top: 20px;
     color: #FFF7D7;
 }
 
@@ -26,17 +26,17 @@ footer {
 }
 
 .footer-content h3 {
-    font-size: 1.8rem;
+    font-size: 1rem;
     font-weight: 400;
     text-transform: capitalize;
-    line-height: 3rem;
+    line-height: 2rem;
 }
 
 .footer-content p {
     max-width: 500px;
     margin: 10px auto;
-    line-height: 28px;
-    font-size: 14px;
+    line-height: 20px;
+    font-size: 10px;
 }
 
 .socials {
@@ -44,11 +44,11 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 1rem 0 3rem 0;
+    margin: 1rem 0 1rem 0;
 }
 
 .socials li {
-    margin: 0 10px;
+    margin: 0 5px;
 }
 
 
@@ -56,12 +56,12 @@ footer {
 .footer-bottom {
     background: #0C190C;
     width: 100%;
-    padding: 20px 0;
+    padding: 10px 0;
     text-align: center;
 }
 
 .footer-bottom p {
-    font-size: 14px;
+    font-size: 10px;
     word-spacing: 2px;
     text-transform: capitalize;
 }
@@ -69,7 +69,7 @@ footer {
 .footer-bottom span {
     text-transform: uppercase;
     opacity: .4;
-    font-weight: 200;
+    font-weight: 100;
 }
 
 .footer__carrito {
@@ -78,7 +78,7 @@ footer {
 
 @media screen and (max-width: 768px) {
     footer {
-        padding-top: 20px;
+        padding-top: 10px;
     }
 
     .footer-content h3 {
